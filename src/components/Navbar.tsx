@@ -64,24 +64,28 @@ const Navbar = () => {
             <Link
               href="/"
               className="block text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium"
+              onClick={() => toggleMenu()}
             >
               Home
             </Link>
             <Link
               href="/about"
               className="block text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium"
+              onClick={() => toggleMenu()}
             >
               About
             </Link>
             <Link
               href="/projects"
               className="block text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium"
+              onClick={() => toggleMenu()}
             >
               Projects
             </Link>
             <Link
               href="/contact"
               className="block text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium"
+              onClick={() => toggleMenu()}
             >
               Contact
             </Link>
