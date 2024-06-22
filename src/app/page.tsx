@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white p-6">
       <main className="flex flex-col items-center justify-center flex-1 text-center">
-        <Header name="Mohit Saud" profession="Software Developer" />
+        <Header name="Mohit Saud" profession="Software Engineer" />
         <ProfileImage />
         <SocialLinks />
       </main>

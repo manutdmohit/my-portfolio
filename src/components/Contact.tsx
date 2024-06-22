@@ -22,12 +22,10 @@ const Contact: React.FC = () => {
 
   return (
     <div className="mt-5 mb-5">
-      <h2 className="text-3xl font-bold text-gray-800 text-center mb-4">
-        Contact Me
-      </h2>
+      <h2 className="text-3xl font-bold text-center mb-4">Contact Me</h2>
       <section className="flex flex-col md:flex-row justify-center items-center md:items-start text-left py-12 border-2 shadow-lg">
         <div className="md:w-1/2 p-4">
-          <p className="mt-4 text-lg text-gray-600">
+          <p className="mt-4 text-lg">
             If you have any questions, feel free to reach out to me. I am
             available via email or phone, and I look forward to connecting with
             you.
@@ -36,7 +34,7 @@ const Contact: React.FC = () => {
         <div className="md:w-1/2 p-4">
           <form onSubmit={formik.handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="name" className="block text-gray-700">
+              <label htmlFor="name" className="block">
                 Name
               </label>
               <input
@@ -72,7 +70,7 @@ const Contact: React.FC = () => {
               ) : null}
             </div>
             <div>
-              <label htmlFor="message" className="block text-gray-700">
+              <label htmlFor="message" className="block">
                 Message
               </label>
               <textarea
