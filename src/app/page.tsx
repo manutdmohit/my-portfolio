@@ -1,6 +1,9 @@
 import Header from '@/components/Header';
 import ProfileImage from '@/components/ProfileImage';
 import SocialLinks from '@/components/SocialLinks';
+import AboutMe from '../components/AboutMe';
+import ProjectsOverview from '@/components/ProjectsOverview';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
         <Header name="Mohit Saud" profession="Software Engineer" />
         <ProfileImage />
         <SocialLinks />
+        <AboutMe />
+        <ProjectsOverview />
+        <Contact />
       </main>
     </div>
   );
